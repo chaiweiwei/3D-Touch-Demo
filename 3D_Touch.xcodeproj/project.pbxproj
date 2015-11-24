@@ -15,6 +15,9 @@
 		FC03BA861BF5BA8200205FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC03BA841BF5BA8200205FD8 /* LaunchScreen.storyboard */; };
 		FC03BA911BF5BA8200205FD8 /* _D_TouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03BA901BF5BA8200205FD8 /* _D_TouchTests.m */; };
 		FC03BA9C1BF5BA8200205FD8 /* _D_TouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03BA9B1BF5BA8200205FD8 /* _D_TouchUITests.m */; };
+		FC9345BE1C044EB4003D4FD0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9345BD1C044EB4003D4FD0 /* ChildViewController.m */; };
+		FC9345BF1C044EB4003D4FD0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9345BD1C044EB4003D4FD0 /* ChildViewController.m */; };
+		FC9345C01C044EB4003D4FD0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9345BD1C044EB4003D4FD0 /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		FC03BA971BF5BA8200205FD8 /* 3D_TouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3D_TouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC03BA9B1BF5BA8200205FD8 /* _D_TouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_TouchUITests.m; sourceTree = "<group>"; };
 		FC03BA9D1BF5BA8200205FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9345BC1C044EB4003D4FD0 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		FC9345BD1C044EB4003D4FD0 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				FC03BA7A1BF5BA8200205FD8 /* AppDelegate.m */,
 				FC03BA7C1BF5BA8200205FD8 /* ViewController.h */,
 				FC03BA7D1BF5BA8200205FD8 /* ViewController.m */,
+				FC9345BC1C044EB4003D4FD0 /* ChildViewController.h */,
+				FC9345BD1C044EB4003D4FD0 /* ChildViewController.m */,
 				FC03BA7F1BF5BA8200205FD8 /* Main.storyboard */,
 				FC03BA821BF5BA8200205FD8 /* Assets.xcassets */,
 				FC03BA841BF5BA8200205FD8 /* LaunchScreen.storyboard */,
@@ -273,6 +280,7 @@
 				FC03BA7E1BF5BA8200205FD8 /* ViewController.m in Sources */,
 				FC03BA7B1BF5BA8200205FD8 /* AppDelegate.m in Sources */,
 				FC03BA781BF5BA8100205FD8 /* main.m in Sources */,
+				FC9345BE1C044EB4003D4FD0 /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC03BA911BF5BA8200205FD8 /* _D_TouchTests.m in Sources */,
+				FC9345BF1C044EB4003D4FD0 /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC03BA9C1BF5BA8200205FD8 /* _D_TouchUITests.m in Sources */,
+				FC9345C01C044EB4003D4FD0 /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +508,7 @@
 				FC03BAA21BF5BA8200205FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC03BAA31BF5BA8200205FD8 /* Build configuration list for PBXNativeTarget "3D_TouchTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				FC03BAA51BF5BA8200205FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC03BAA61BF5BA8200205FD8 /* Build configuration list for PBXNativeTarget "3D_TouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				FC03BAA81BF5BA8200205FD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
